@@ -1,0 +1,33 @@
+{
+  "name": "test-platform-project",
+  "version": "1.0.0",
+  "description": "API 테스트 자동화를 위한 시스템 구축 프로젝트 레포입니다. Postman, Newman,Jenkins, Docker를 활용합니다.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyla0427/test-platform-project.git"
+  },
+  "keywords": [
+    "postman",
+    "express",
+    "node.js",
+    "newman",
+    "jenkins",
+    "docker"
+  ],
+  "author": "seungyun lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyla0427/test-platform-project/issues"
+  },
+  "homepage": "https://github.com/lyla0427/test-platform-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
